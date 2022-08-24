@@ -7,7 +7,7 @@
 
 module.exports = {
   daisyui: {
-    themes: ["light", "dark", "cupcake", "bumblebee", "emerald", "corporate", "synthwave", "retro", "cyberpunk", "valentine", "halloween", "garden", "forest", "aqua", "lofi", "pastel", "fantasy", "wireframe", "black", "luxury", "dracula", "cmyk", "autumn", "business", "acid", "lemonade", "night", "coffee", "winter"],
+    themes: ["fantasy"],
   },
   content: [
     /**
@@ -47,7 +47,7 @@ module.exports = {
     // Crispy Forms classes
     "../../.venv/lib/python*/site-packages/crispy_tailwind/templates/**/*.html",
   ],
-  darkMode: "class",
+  darkTheme: "",
   theme: {
     extend: {},
   },
@@ -57,7 +57,7 @@ module.exports = {
      * for forms. If you don't like it or have own styling for forms,
      * comment the line below to disable '@tailwindcss/forms'.
      */
-    require("@tailwindcss/forms"),
+    // require("@tailwindcss/forms"),
     require("@tailwindcss/typography"),
     require("daisyui"),
     // require('@tailwindcss/line-clamp'),

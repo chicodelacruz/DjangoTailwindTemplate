@@ -9,7 +9,7 @@
     <form method="post">
         {% csrf_token %}
         {{ form|crispy }}
-        <button type="submit">Ok</button>
+        <button class="btn btn-primary" type="submit">Ok</button>
     </form>
     <div class="mt-6 flex flex-row pl-4 py-2 gap-2 items-center border rounded-lg shadow overflow-hidden dark:bg-gray-900 dark:border-blue-400">
         <span class="flex-shrink-0 inline-flex mx-3 item-center justify-center leading-none rounded-full dark:bg-blue-400 dark:text-gray-900">
